@@ -1,0 +1,11 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/door/door",
+	"textures": {
+		"bottom": "block/door/spruce/lower",
+		"top": "block/door/spruce/upper",
+		"frame": "block/door/spruce/trim"
+	},
+	"gui_light": "front",
+	"display": {}
+}

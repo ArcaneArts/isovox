@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence/fence_inventory",
+    "textures": {
+        "side": "block/fence/fence_warped_side",
+		"top": "block/fence/fence_warped_top"
+    }
+}

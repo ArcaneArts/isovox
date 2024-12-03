@@ -1,0 +1,26 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/waterlily/waterlily" },
+            { "model": "block/waterlily/waterlily", "y": 90 },
+            { "model": "block/waterlily/waterlily", "y": 180 },
+            { "model": "block/waterlily/waterlily", "y": 270 },
+            { "model": "block/waterlily/waterlily_2" },
+            { "model": "block/waterlily/waterlily_2", "y": 90 },
+            { "model": "block/waterlily/waterlily_2", "y": 180 },
+            { "model": "block/waterlily/waterlily_2", "y": 270 },
+            { "model": "block/waterlily/waterlily_3" },
+            { "model": "block/waterlily/waterlily_3", "y": 90 },
+            { "model": "block/waterlily/waterlily_3", "y": 180 },
+            { "model": "block/waterlily/waterlily_3", "y": 270 },
+            { "model": "block/waterlily/waterlily_4" },
+            { "model": "block/waterlily/waterlily_4", "y": 90 },
+            { "model": "block/waterlily/waterlily_4", "y": 180 },
+            { "model": "block/waterlily/waterlily_4", "y": 270 },
+            { "model": "block/waterlily/waterlily_5" },
+            { "model": "block/waterlily/waterlily_5", "y": 90 },
+            { "model": "block/waterlily/waterlily_5", "y": 180 },
+            { "model": "block/waterlily/waterlily_5", "y": 270 }
+        ]
+    }
+}

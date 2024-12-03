@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "": [
+          { "model": "block/flower/orchid_1" },
+          { "model": "block/flower/orchid_2" }
+        ]
+    }
+}

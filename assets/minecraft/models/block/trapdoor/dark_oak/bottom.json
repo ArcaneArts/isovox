@@ -1,0 +1,25 @@
+{
+	"credit": "Made by leagris for Soartex Fanver, with Blockbench, a free, modern block model editor by JannisX11",
+	"parent": "block/thin_block",
+	"textures": {
+		"top": "block/trapdoor/dark_oak/top",
+		"particle": "block/trapdoor/dark_oak/top",
+		"bottom": "block/trapdoor/dark_oak/bottom",
+		"trim": "block/trapdoor/dark_oak/trim"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [0, 0, 0],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [0, 3, 16, 6], "texture": "#trim"},
+				"east": {"uv": [0, 6, 16, 9], "texture": "#trim"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#trim"},
+				"west": {"uv": [0, 6, 16, 9], "texture": "#trim"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#bottom"}
+			}
+		}
+	]
+}

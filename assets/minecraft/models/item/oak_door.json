@@ -1,0 +1,72 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"bottom": "block/door/wood/lower",
+		"top": "block/door/wood/upper",
+		"parts": "block/door/wood/parts",
+		"particle": "block/door/wood/upper_front",
+		"upper_front": "block/door/wood/upper_front",
+		"lower_front": "block/door/wood/lower_front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1.25, 16, 16],
+			"faces": {
+				"north": {"uv": [3.75, 0, 2.5, 16], "texture": "#parts", "cullface": "south"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#top"},
+				"south": {"uv": [5, 0, 6.25, 16], "texture": "#parts", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#upper_front", "cullface": "west"},
+				"up": {"uv": [0, 0, 1.25, 16], "texture": "#parts", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, -16, 0],
+			"to": [1.25, 0, 16],
+			"faces": {
+				"north": {"uv": [2.5, 0, 1.25, 16], "texture": "#parts", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [5, 0, 3.75, 16], "texture": "#parts", "cullface": "north"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#lower_front", "cullface": "west"},
+				"down": {"uv": [0, 0, 1.25, 16], "texture": "#parts", "cullface": "up"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 5.76, -0.96],
+			"scale": [0.35, 0.3, 0.35]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 5.76, 3.84],
+			"scale": [0.35, 0.3, 0.35]
+		},
+		"firstperson_righthand": {
+			"rotation": [-21, 7, 0],
+			"translation": [3.84, 4.8, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-21, 7, 0],
+			"translation": [3.84, 4.8, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 3.8, 0],
+			"scale": [0.54, 0.5, 0.6]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 2.88, 2.2],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

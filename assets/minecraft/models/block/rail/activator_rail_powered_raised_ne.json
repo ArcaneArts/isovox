@@ -1,0 +1,9 @@
+{
+    "parent": "block/rail/activator_rail_raised_ne",
+    "textures": {
+        "texture": "block/activator_rail_on",
+        "particle": "block/activator_rail_on",
+        "rail": "block/rail",
+        "rail_parts": "block/rail/rail_parts"
+    }
+}

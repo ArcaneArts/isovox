@@ -1,0 +1,82 @@
+{
+	"credit": "Made by leagris for Soartex Fanver, with Blockbench, a free, modern block model editor by JannisX11",
+	"parent": "block/thin_block",
+	"textures": {
+		"top": "block/trapdoor/acacia/top",
+		"particle": "block/trapdoor/acacia/top",
+		"bottom": "block/trapdoor/acacia/bottom",
+		"trim": "block/trapdoor/acacia/trim"
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [0, 0, 14],
+			"to": [16, 3, 16],
+			"faces": {
+				"north": {"uv": [15.984, 2.984, 0.016, 0.016], "texture": "#bottom"},
+				"east": {"uv": [0.016, 4.016, 2.984, 5.984], "texture": "#trim", "rotation": 270},
+				"south": {"uv": [0.016, 0.016, 15.984, 2.984], "texture": "#top", "rotation": 180},
+				"west": {"uv": [13.016, 4.016, 15.984, 5.984], "texture": "#trim", "rotation": 90},
+				"up": {"uv": [0.016, 2.016, 15.984, 3.984], "texture": "#trim", "rotation": 180},
+				"down": {"uv": [0.016, 2.016, 15.984, 3.984], "texture": "#trim"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [0, 13, 14],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [15.984, 15.984, 0.016, 13.016], "texture": "#bottom"},
+				"east": {"uv": [13.016, 4.016, 15.984, 5.984], "texture": "#trim", "rotation": 270},
+				"south": {"uv": [0.016, 13.016, 15.984, 15.984], "texture": "#top", "rotation": 180},
+				"west": {"uv": [0.016, 4.016, 2.984, 5.984], "texture": "#trim", "rotation": 90},
+				"up": {"uv": [0.016, 0.016, 15.984, 1.984], "texture": "#trim", "rotation": 180},
+				"down": {"uv": [0.016, 2.016, 15.984, 3.984], "texture": "#trim"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [0, 3, 14],
+			"to": [3, 13, 16],
+			"faces": {
+				"north": {"uv": [2.984, 12.984, 0.016, 3.016], "texture": "#top"},
+				"east": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 270},
+				"south": {"uv": [13.016, 3.016, 15.984, 12.984], "texture": "#top", "rotation": 180},
+				"west": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 90}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [5, 3, 14],
+			"to": [7, 13, 16],
+			"faces": {
+				"north": {"uv": [6.734, 12.984, 5.016, 3.016], "texture": "#top"},
+				"east": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 270},
+				"south": {"uv": [9.016, 3.016, 10.984, 12.984], "texture": "#top", "rotation": 180},
+				"west": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 90}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [9, 3, 14],
+			"to": [11, 13, 16],
+			"faces": {
+				"north": {"uv": [10.734, 12.984, 9.016, 3.016], "texture": "#top"},
+				"east": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 270},
+				"south": {"uv": [5.016, 3.016, 6.984, 12.984], "texture": "#top", "rotation": 180},
+				"west": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 90}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [13, 3, 14],
+			"to": [16, 13, 16],
+			"faces": {
+				"north": {"uv": [15.984, 12.984, 13.016, 3.016], "texture": "#top"},
+				"east": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 270},
+				"south": {"uv": [0.016, 3.016, 2.984, 12.984], "texture": "#top", "rotation": 180},
+				"west": {"uv": [3.016, 4.016, 12.984, 5.984], "texture": "#trim", "rotation": 90}
+			}
+		}
+	]
+}

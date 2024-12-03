@@ -1,0 +1,8 @@
+{
+    "parent": "block/wall/wall_side",
+    "textures": {
+        "side": "block/wall/nether_brick/wall_side",
+        "top": "block/wall/nether_brick/wall_top",
+        "normal": "block/nether_bricks"
+    }
+}

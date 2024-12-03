@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane/post_ends",
+    "textures": {
+      "edge": "block/red_stained_glass_pane_top",
+      "pane": "block/red_stained_glass"
+    }
+}

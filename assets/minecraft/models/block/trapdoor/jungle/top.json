@@ -1,0 +1,68 @@
+{
+	"credit": "Made by leagris for Soartex Fanver, with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"trim": "block/trapdoor/jungle/trim",
+		"top": "block/trapdoor/jungle/top",
+		"particle": "block/trapdoor/jungle/top"
+	},
+  "parent": "block/thin_block",
+	"elements": [
+		{
+			"name": "cube",
+			"from": [14.75, 14.5, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0.016, 0.016, 1.234, 1.484], "texture": "#trim"},
+				"east": {"uv": [0.016, 0.016, 15.984, 1.484], "texture": "#trim"},
+				"south": {"uv": [14.766, 0.016, 15.984, 1.484], "texture": "#trim"},
+				"west": {"uv": [1.266, 0.016, 14.734, 1.484], "texture": "#trim"},
+				"up": {"uv": [14.766, 0.016, 15.984, 15.984], "texture": "#top"},
+				"down": {"uv": [14.766, 0.016, 15.984, 15.984], "texture": "#top"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [0, 14.5, 0],
+			"to": [1.25, 16, 16],
+			"faces": {
+				"north": {"uv": [14.766, 0.016, 15.984, 1.484], "texture": "#trim"},
+				"east": {"uv": [1.266, 0.016, 14.734, 1.484], "texture": "#trim"},
+				"south": {"uv": [0.016, 0.016, 1.234, 1.484], "texture": "#trim"},
+				"west": {"uv": [0.016, 0.016, 15.984, 1.484], "texture": "#trim"},
+				"up": {"uv": [0.016, 0.016, 1.234, 15.984], "texture": "#top"},
+				"down": {"uv": [0.016, 0.016, 1.234, 15.984], "texture": "#top"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [1.25, 14.5, 0],
+			"to": [14.75, 16, 1.25],
+			"faces": {
+				"north": {"uv": [1.266, 0.016, 14.734, 1.484], "texture": "#trim"},
+				"south": {"uv": [1.266, 0.016, 14.734, 1.484], "texture": "#trim"},
+				"up": {"uv": [1.266, 0.016, 14.734, 1.234], "texture": "#top"},
+				"down": {"uv": [1.266, 14.766, 14.734, 15.984], "texture": "#top"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [1.25, 14.5, 14.75],
+			"to": [14.75, 16, 16],
+			"faces": {
+				"north": {"uv": [1.266, 0.016, 14.734, 1.484], "texture": "#trim"},
+				"south": {"uv": [1.266, 0.016, 14.734, 1.484], "texture": "#trim"},
+				"up": {"uv": [1.266, 14.766, 14.734, 15.984], "texture": "#top"},
+				"down": {"uv": [1.266, 0.016, 14.734, 1.234], "texture": "#top"}
+			}
+		},
+		{
+			"name": "cube",
+			"from": [1.25, 15.25, 1.25],
+			"to": [14.75, 15.25, 14.75],
+			"faces": {
+				"up": {"uv": [1.266, 1.266, 14.734, 14.734], "texture": "#top"},
+				"down": {"uv": [1.266, 1.266, 14.734, 14.734], "texture": "#top"}
+			}
+		}
+	]
+}

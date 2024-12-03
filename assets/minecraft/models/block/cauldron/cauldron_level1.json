@@ -1,0 +1,10 @@
+{
+	"credit": "Made by leagris for Soartex Fanver, with Blockbench, a free, modern block model editor by JannisX11",
+    "ambientocclusion": false,
+	"textures": {
+    	"water": "block/water_overlay"
+	},
+    "elements": [
+		{"name": "cube", "from": [2, 9, 2], "to": [14, 9, 14], "faces": {"up": {"uv": [2, 2, 14, 14], "texture": "#water"}}}
+	]
+}

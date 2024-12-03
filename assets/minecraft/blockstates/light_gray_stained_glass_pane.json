@@ -1,0 +1,29 @@
+{
+    "multipart": [
+        {   "apply": { "model": "block/glass/pane/stained/light_gray/post_ends" }},
+        {   "when": { "OR": [
+            {"north": true, "east": true, "south": true},
+            {"north": true, "east": true, "west": true},
+            {"east": true, "south": true, "west": true},
+            {"north": true, "south": true, "west": true},
+            {"north": false, "east": false, "south": false},
+            {"north": false, "east": false, "west": false},
+            {"east": false, "south": false, "west": false},
+            {"north": false, "south": false, "west": false}
+        ]},
+            "apply": { "model": "block/glass/pane/stained/light_gray/post" }
+        },
+        {   "when": { "north": true },
+            "apply": { "model": "block/glass/pane/stained/light_gray/side" }
+        },
+        {   "when": { "east": true },
+            "apply": { "model": "block/glass/pane/stained/light_gray/side", "y": 90 }
+        },
+        {   "when": { "south": true },
+            "apply": { "model": "block/glass/pane/stained/light_gray/side", "y": 180 }
+        },
+        {   "when": { "west": true },
+            "apply": { "model": "block/glass/pane/stained/light_gray/side", "y": 270 }
+        }
+    ]
+}

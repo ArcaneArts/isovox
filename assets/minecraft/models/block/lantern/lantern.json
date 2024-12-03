@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/lantern/template_lantern",
+  "textures": {
+    "lantern": "minecraft:block/lantern"
+  }
+}

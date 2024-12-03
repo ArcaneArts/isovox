@@ -1,0 +1,9 @@
+{
+    "parent": "block/rail/detector_rail_raised_ne",
+    "textures": {
+        "texture": "block/detector_rail_on",
+        "particle": "block/detector_rail_on",
+        "rail": "block/rail",
+        "rail_parts": "block/rail/rail_parts"
+    }
+}

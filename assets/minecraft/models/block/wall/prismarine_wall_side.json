@@ -1,0 +1,8 @@
+{
+    "parent": "block/wall/wall_side",
+    "textures": {
+        "side": "block/wall/prismarine/wall_side",
+        "top": "block/wall/prismarine/wall_top",
+        "normal": "block/prismarine"
+    }
+}

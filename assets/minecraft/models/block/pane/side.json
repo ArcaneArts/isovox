@@ -1,0 +1,57 @@
+{
+	"credit": "Made by leagris for Soartex Fanver, with Blockbench, a free, modern block model editor by JannisX11",
+	"ambientocclusion": false,
+  "textures": {
+      "particle": "#pane"
+  },
+	"elements": [
+		{
+			"name": "cube",
+			"from": [8, 0.5, 0.5],
+			"to": [8, 15.5, 8],
+			"faces": {
+				"east": {"uv": [8.016, 0.516, 15.484, 15.484], "texture": "#pane"},
+				"west": {"uv": [0.516, 0.516, 7.984, 15.484], "texture": "#pane"}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [7.75, 0, 0],
+			"to": [8.25, 16, 0.5],
+			"faces": {
+				"north": {"uv": [8.234, 0.016, 7.766, 15.984], "texture": "#edge"},
+				"east": {"uv": [15.516, 0.016, 15.984, 15.984], "texture": "#pane"},
+				"south": {"uv": [7.016, 0.016, 7.484, 15.984], "texture": "#edge"},
+				"west": {"uv": [0.016, 0.016, 0.484, 15.984], "texture": "#pane"},
+				"up": {"uv": [7.766, 0.016, 8.234, 0.484], "texture": "#edge"},
+				"down": {"uv": [7.766, 0.016, 8.234, 0.484], "texture": "#edge", "rotation": 180}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [7.75, 15.5, 0.5],
+			"to": [8.25, 16, 7.75],
+			"faces": {
+				"east": {"uv": [8.266, 0.016, 15.484, 0.484], "texture": "#pane"},
+				"west": {"uv": [0.516, 0.016, 7.734, 0.484], "texture": "#pane"},
+				"up": {"uv": [7.766, 0.516, 8.234, 7.734], "texture": "#edge"},
+				"down": {"uv": [7.766, 0.516, 8.234, 7.734], "texture": "#edge", "rotation": 180}
+			},
+			"type": "cube"
+		},
+		{
+			"name": "cube",
+			"from": [7.75, 0, 0.5],
+			"to": [8.25, 0.5, 7.75],
+			"faces": {
+				"east": {"uv": [8.266, 15.516, 15.484, 15.984], "texture": "#pane"},
+				"west": {"uv": [0.516, 15.516, 7.734, 15.984], "texture": "#pane"},
+				"up": {"uv": [7.766, 0.516, 8.234, 7.734], "texture": "#edge"},
+				"down": {"uv": [7.766, 0.516, 8.234, 7.734], "texture": "#edge", "rotation": 180}
+			},
+			"type": "cube"
+		}
+	]
+}
