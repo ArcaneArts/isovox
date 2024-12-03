@@ -1,0 +1,30 @@
+name: isovox
+description: "The game"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  fast_log: ^1.0.7
+  flame: ^1.18.0
+  flame_audio: ^2.10.1
+  flame_fire_atlas: ^1.5.2
+  flame_forge2d: ^0.18.1
+  flame_isolate: ^0.6.1
+  flame_lint: ^1.2.0
+  flame_tiled: ^1.20.2
+  flame_tiled_utils: ^1.2.0
+  window_manager: ^0.3.9
+  pylon: ^1.0.3+5
+  rxdart: ^0.28.0
+  toxic: ^1.3.1
+  toxic_flutter: ^1.0.2+1
+  loud: ^1.0.3
+  archive: ^3.6.1
+flutter:
+  uses-material-design: false
+  assets:
+    - assets/world/
+    - assets/texture/iso/
